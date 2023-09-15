@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    margin-top: 10%;
+}
+.div{
+    margin-top: 10px;
+}
+.div2{
+    margin-top: 10px;
+}
+.div3{
+    margin-top: 10px;
+}
+.div4{
+    margin-top: 10px;
+    margin-right: 330px;
+   
+}
+#input1{
+    margin-right: 20px;
+    
+}
+
+#input3{
+    margin-right: 20px;   
+}
+#text{
+    background-color: red;
+    color: white;
+}

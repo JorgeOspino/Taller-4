@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario #2</title>
+    <link rel="stylesheet" href="../css/style2.css">
+</head>
+
+<body>
+    <!-- Hecho por Jorge Andres  Ospino Suarez  -->
+    <h1>Registration Form</h1>
+    <form>
+        <div class="papa">
+            <label for="A">User id:</label>
+            <div class="input-container">
+                <input id="A" type="text">
+                <span class="overflow-text">Requiered and must be of length 5 to 12</span>
+            </div>
+        </div><br>
+        <div class="papa">
+            <label for="A">Password:</label>
+            <div class="input-container">
+                <input id="A" type="text">
+                <span class="overflow-text">Requiered and must be of length 7 to 12</span>
+            </div>
+        </div><br>
+        <label>Name:</label> <input type="text" value="Requiered and alphabates only." size="40"> <br><br>
+        <label>Address:</label> <input type="text" value="Optional" size="38"> <br><br>
+        <label>Country:</label>
+        <select>
+            <option value="">(Please a country )</option>
+        </select>
+        <span>Requiered. must select a country</span> <br><br>
+        <div class="papa">
+            <label>ZIP Code:</label>
+            <div class="input-container">
+                <input id="A" type="text">
+                <span class="overflow-text">Requiered. must be numeric only</span>
+            </div>
+        </div><br>
+        <label>Email:</label> <input type="text" value="Requiered. must be a valid email." size="40"> <br><br>
+        <label>Sex:</label> <input type="radio">Male <input type="radio">Fermale <span id="span1">Requiered</span>
+        <br><br>
+        <label>Language:</label> <input type="checkbox" checked>English <input type="checkbox"> Non English <span
+            id="span2">Requiered</span> <br><br>
+        <div class="papa2">
+            <label>About:</label>
+            <div class="hijoUno">
+                <span>Optional</span>
+            </div>
+        </div><br>
+        <div class="boton"><input type="submit" value="Submit" id="B"></div>
+    </form>
+</body>
+
+</html>

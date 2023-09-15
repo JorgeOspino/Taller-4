@@ -1,0 +1,50 @@
+#span1{
+    margin-left: 135px;
+    color: red;
+}
+#span2{
+    margin-left: 50px;
+    color: red;
+}
+.papa{
+    display: flex;
+    flex-direction: row;
+}
+.input-container {
+    max-width: 150px;
+    position: relative;
+  }
+  #A {
+    width: 70%;
+  }
+span, input{
+    font-weight: bold;
+    color: red;
+}
+  .overflow-text {
+    position: absolute;
+    top: 0;
+    left:0%; 
+    white-space: nowrap; 
+  }
+  .papa2{
+    display: flex;
+    flex-direction: row;
+  }
+.hijoUno{
+    display: flex;
+    width: 30%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 195, 255);
+}
+#B{
+    border: 1px solid rgb(0, 195, 255);
+}
+.boton{
+    display: flex;
+    width: 30%;
+
+    justify-content: center;
+}
